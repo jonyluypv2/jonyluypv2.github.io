@@ -1,0 +1,573 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ header {
+	z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;   
+    height: 100%;
+}
+
+header li a, header li .active {
+	padding: 20px;
+}
+
+header span {
+    position: absolute;
+}
+
+header a:hover {
+    padding: 20px;
+}
+
+.header {
+    max-height: 480px;
+}
+
+.wit--achtergrond {
+    max-height: 70px;
+}
+
+#nav ul {
+   margin: auto;
+   padding-top: 50px;
+   padding-left: 30%;
+}
+
+#nav > a {
+    display: none;
+}
+
+#nav li {
+    position: relative;
+    list-style: none;
+    float: left;
+}
+
+
+#nav ul li a {
+	text-align: center;
+    text-decoration: none;
+    width: 150px;
+    display: block;
+}
+ 
+/* first level */
+
+#nav > ul > li {
+    height: 100%;
+
+}  
+
+/* second level */
+
+#nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;        
+}
+
+#nav ul ul {
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+#nav ul ul a {
+    padding: 20px;
+    width: 150px;
+}
+
+#nav li:hover ul {
+    display: block;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+/* content */
+
+
+.wrapper, .container, .row, .col {
+	display: block;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.achtergrond {
+    top: 0;
+}
+
+.container {
+	width: 850px;
+	margin: auto;
+	padding: 0px !important;
+    padding: 0;
+	padding-bottom: 50px;
+}
+
+
+.row {
+	margin: 0;
+}
+
+.row:before, 
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.row .row {
+	margin: 0 -12px;
+}
+
+#row {
+	padding-top: 10px;
+	height: 70px;
+}
+
+#section {
+    width: 400px;
+}
+
+.logo {
+    height: 100px;
+	text-indent: -9999px;
+}
+
+h1, .col {
+    padding-left: 20px; 
+}
+
+h2 {
+    margin-left: 20px; 
+	margin-bottom: 10px;
+}
+
+.vroegere-route h3, p {
+    margin-left: 10px;
+}
+
+.col {
+    width: 480px;
+    margin-left: 20px;
+}
+
+.save a:hover {
+    text-decoration: none;
+    display: block;
+
+}
+
+/* home */
+
+.pictogram  {
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.pictogram ul li {
+    margin: 10px;
+    
+}
+
+.pictogram li a {   
+    height:200px;
+    display:inline-block;
+    margin: 20px 80px;
+    overflow:hidden;
+    width:200px; 
+    float: left;
+}
+
+.pictogram li a:hover
+{
+background-position: 0px -200px;
+}
+
+.pictogram a span
+{
+display:block;
+text-indent: -9999px;
+}
+
+.home .col {
+    margin: 0 auto;
+}
+
+/* bluebike */
+
+.fietsen {
+    width: 45%;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+/* openbaarvervoer */
+
+
+.routeplanner {
+    padding: 20px;
+    height: 12em;
+}
+
+.zoekplan {
+   width: 100%;
+   margin: auto;
+}
+
+.plan {
+    margin-top: 29px;
+    margin-left: 20px;
+    padding: 6px 0px;
+    width: 25%;
+    float: left;
+}
+
+.routeplanner label {
+    margin: 10px 20px;
+    width: 25%;
+    float: left;
+    
+}
+
+.vroegere-route {
+    height: 300px;
+}
+
+.vroegere-route h3 {
+    padding-top: 20px;
+}
+
+.vroegere-route h3, .vroegere-route p {
+    margin: 20px 30px 0px;
+}
+ 
+.vroegere-route p span {
+    padding-left: 200px;
+}
+
+
+/* carpool */
+
+.carpool .col-1, .carpool .col-2 {
+    float: left;
+    width: 520px;
+}
+
+.carpool .col-1 {
+    margin-right: 130px;
+}
+
+.row .row-search {
+    margin: 20px 20px;
+}
+
+.search {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 30%;
+    padding: 10px;
+    float:right;
+}
+
+.icon {
+    width: 7%;
+    float:right;
+}
+
+.user {
+    padding: 10px 0px 30px;
+}
+
+.user img {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 100px;
+    float: left;
+}
+
+.bericht {   
+    margin: 40px 10% 0px 28%;
+    padding: 10px 20px;
+}
+
+/* registratie */
+
+.register .col {
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+.button {
+    width: 110px;
+    margin: 2em 2em 0px;
+}
+
+/* Account */
+
+.account .col-1, .account .col-2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2em;
+}
+
+.col-1 .profiel-tabel {
+    margin-top: 10px;
+    margin-left: 2em;
+    display: block;
+    text-align: center;
+    width: 180px; 
+}
+
+.user-account {
+    width: 100px;
+}
+
+.user-account .login {
+    margin-left: 65px;
+}
+
+.user-account img {
+    width: 10em;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.profiel-tabel li {
+    display: block;
+    padding: 10px 0px 10px;
+}
+
+.profiel {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profiel-2 {
+    border-bottom-right-radius: 15px;
+}
+
+.save {
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 11em;
+}
+
+/* login */
+
+#frmLogin .save {
+    margin-left: 0;
+    font-size: 18px;
+    width: 150px;
+    padding: 10px 30px;
+}
+
+.link-register {
+    margin-top: 30px;
+    width: 250px;
+}
+
+.link-register a {
+    display: block;
+    padding: 15px;
+}
+
+.link-register a:hover {
+    text-decoration: none;
+    display: block;
+
+}
+
+/* contact */
+
+.contact {    
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.contact .col-1 {
+	margin-top: 10px;
+    margin-right: 200px;
+	width: 400px;
+	float: left;
+}
+
+.contact .col-2 {
+	width: 400px;
+	float: left;
+}
+
+.contact .col-2 iframe {
+	right: 0;
+	width:400px;
+	float: left;
+}
+
+.contact ul li {
+	text-align: right;
+	display: block;
+}
+
+form {
+    margin-left: 10px;
+}
+
+form span {
+    font-weight: bold;
+}
+
+legend {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 10em;
+}
+
+textarea {
+    width: 100%;
+    height: 5em;
+}
+
+input {
+    width: 100%;
+}
+
+.contact #button {
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+textarea, input, #btnSend  {
+    padding: 5px;
+    border: none;
+}
+
+footer {
+	padding-top: 50px;
+	height: 100px;
+}
+
+footer p {
+   text-align: center; 
+}
+
+@media only screen and (max-width: 768px) {
+    
+    header .wrapper {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #nav ul  {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    [id^=drop]:checked + ul { display: block; }
+    
+    .register .col {
+        margin-left: 20px;
+    }
+    
+    .container {
+        width: 720px;
+        margin: auto;
+    }
+    
+    .routeplanner {
+        padding: 20px;
+        height: 16em;
+    }
+    
+    .contact .col-1 {
+        margin-bottom: 50px;
+    }
+    
+   .row .search {
+        float: left;
+    }
+    
+    .row .icon {
+        float: none;
+    }
+    
+    .plan {
+    margin-top: 29px;
+    margin-left: 20px;
+    padding: 6px 0px;
+    width: 25%;
+    float: left;
+    }
+
+    .routeplanner label {
+        margin: 10px 20px;
+        width: 40%;
+        float: left;
+    }   
+    
+}
+
+@media only screen and (max-width: 550px) {
+    
+	
+	#nav ul li {
+        display: block;
+		width: 100%;
+	}
+	
+	#nav li a {
+		display: block;
+        width: 100% !important;
+        padding: 20px;
+	}
+    
+    #nav li ul {
+        position: none;
+    }
+    
+    .home .col {
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+    
+    .zoekplan {
+        margin: 0;
+        width: 20em;
+    }
+    
+     .routeplanner {
+        padding: 20px;
+        height: 30em;
+    }
+    
+    .plan {
+        margin-top: 29px;
+        margin-left: 20px;
+        padding: 6px 0px;
+        width: 100%;
+        float: none;
+    }
+    
+    .routeplanner label {
+        margin: 10px 20px;
+        width: 100%;
+        float: none;
+
+    }   
+
+}

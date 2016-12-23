@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: Arial, Helvetica, Roboto;
+}
+
+body {
+    color:#2F3F4F !important;
+}
+
+/* header */
+.achtergrond {
+    background: url("../../content/image/artevelde-school.png") 0 0 no-repeat;
+   background-size: cover;
+    height: 440px;
+
+}
+
+
+.background image {
+     background: url("../../content/image/wit-fiets.png") 0 0 no-repeat;
+}
+
+
+#nav ul li a {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#nav ul a:hover { 
+    background-color: #22A4D5;
+    color: #FFFFFF;
+    text-decoration:none;
+} 
+
+a:visited {  
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #2F3F4F;
+    text-decoration:none;
+}
+
+#nav li a.active {  
+    background-color: #22A4D5;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+#nav .active-2:hover {
+    color: white;
+    background-color: #FD876F;
+} 
+
+.wrapper-link {
+    background-color: #F3F3F3;
+}
+
+.grijs {
+    background-color: #BFBFBF;
+}
+
+h1 {
+    color: #FD876F !important;
+    font-family: "Roboto" !important;
+    font-weight: lighter !important;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: #22A4D5 !important;
+}
+
+/* content */
+
+.grijs .container {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.save:hover {
+    background-color: #22A4D5;
+    color: white;
+}
+
+h3 {
+    color: #FD876F !important;
+    border-bottom: 1px solid #BFBFBF;
+    font-family: "Roboto" !important;
+    font-weight: lighter !important;
+}
+
+/* home */
+
+.pictogram a.fiets {   
+    background: url(../../content/image/fiets.png) no-repeat;
+}
+
+.pictogram a.bus {   
+    background: url(../../content/image/bus.png) no-repeat;
+}
+
+.pictogram a.carpool {   
+    background: url(../../content/image/carpool.png) no-repeat;
+}
+
+.pictogram  {
+    list-style-type: none;
+}
+
+/* bluebike */
+
+
+.fietsen {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* openbaarvervoer */
+
+.routeplanner {
+    background-color: #2F3F4F;
+    color: white;
+}
+
+.plan {
+    color: #2F3F4F;
+    border: none;
+}
+
+.search-input-button button{
+    background-color: #FD876F;
+    border: none;
+    color: white;
+}
+
+.vroegere-route {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* carpool */
+
+.user {
+    background-color: white;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.bericht {
+    background-color: #FD876F;
+    border-radius: 15px 15px 15px 0px;
+}
+
+.user:hover {
+    background-color: #FD876F;
+}
+
+.user p:hover {
+    background-color: white;
+}
+
+/* account */
+
+.login {
+    font-size: 24px;
+    color: #2F3F4F;
+}
+
+.profiel, .favoriete {
+    background-color: #22A4D5;
+    color: white;
+}
+
+.profiel-1, .profiel-2 {
+    background-color: #FFF;
+}
+
+.profiel-1 a, .profiel-2 a {
+    text-decoration:none;
+}
+
+.formulier input {
+    text-decoration: none;
+}
+    
+.save, .button {
+    color: #22A4D5;
+    border: 1px solid #22A4D5;
+    background-color: none;
+    text-decoration: none;
+}
+
+/* login */
+
+.link-register {
+    font-size: 2em;
+    border: 1px solid #FD876F;
+    text-align: center;
+}
+
+.link-register a {
+    color: #FD876F;
+}
+
+
+.link-register a:hover {
+    background-color: #FD876F;
+    color: white;
+}
+
+/* footer */
+
+footer {
+    background-color: #2F3F4F;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-posts {
+  max-width: 960px;
+}
+
+.frm-post-create-container {
+  max-width: 960px;
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .achtergrond {
+        background: none;
+        background-color: rgba(34, 164, 213, 0.8);
+    }
+    
+    #nav ul li {
+        background-color: white;
+    }
+
+
+}
