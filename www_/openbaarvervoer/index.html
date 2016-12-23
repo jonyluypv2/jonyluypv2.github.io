@@ -1,0 +1,141 @@
+<!-- openbaarvervoer -->
+<!DOCTYPE html>
+<html>
+	<head>
+            <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+
+        <title>CMS App | Web and New Media | Artevelde University College Ghent</title>
+        <meta name="description" content="gdm.gent frontend boilerplate for the mass. We want the share all or knowledge on webtechnologies with you all :)">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript, jQuery, Responsive, Grid">
+        <meta name="author" content="gdm.gent | Bachelor of Graphic and Digital Media | Artevelde University College Ghent">
+        <meta name="copyright" content="Copyright 2010-16 Artevelde University College Ghent. All Rights Reserved.">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- prefetch dns -->
+        <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+        <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        <!-- CSS-libraries -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.min.css">
+        
+        <title>Mobiliteit</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        
+        <!-- My Own Stylesheets -->
+        <link rel="stylesheet" media="all" href="../styles/css/helpers.css">
+        <link rel="stylesheet" media="all" href="../styles/css/grid.css">
+        <link rel="stylesheet" media="all" href="../styles/css/common.css">
+        <link rel="stylesheet" media="all" href="../styles/css/main.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+    </head>
+     <body>    
+        <!-- Insert your HTML here -->
+        <div class="wrapper">
+            <header>
+                <div class="achtergrond">
+                    <div class="container-header">
+                        <nav id="nav" role="navigation">
+                            <a href="#nav" title="Show navigation">Show navigation</a>
+                            <a href="#" title="Hide navigation">Hide navigation</a>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a class="active" href="#" aria-haspopup="true">Routeplanner</a>
+                                    <ul>
+                                        <li><a class="active-2" href="../bluebike/index.html">Bluebike</a></li>
+                                        <li><a class="active-2" href="../openbaarvervoer/index.html">Openbaarvervoer</a></li>
+                                        <li><a class="active-2" href="../carpool/index.html">Carpool</a></li>
+                                    </ul>
+                                <li><a href="../login/index.html">Login</a></li>
+                                <li><a href="../account/index.html">Account</a></li>
+                                <li><a href="../contact/index.html">Contact</a></li>
+                           </ul>
+                        </nav>                
+                    </div>  
+                </div> 
+            </header>
+      	</div>
+        <div class="wrapper wit--achtergrond">
+            <div class="container">
+                <h1>Openbaarvervoer</h1>               
+            </div>
+        </div> 
+        <div class="wrapper grijs">
+            <div class="container">    
+                <div class="row">
+                    
+                    <form class="routeplanner"action="action_page.php">
+                        <div class="zoekplan">
+                            <label class="locatie" for="txtName"><span>van</span>
+                            <input type="text" name="van" value="" placeholder="van"></label>
+                        
+                            <label margin: 20px 0px; for="txtName"><span>naar</span>
+                            <input type="text" name="naar" value="" placeholder="naar"></label>
+        
+                            <label class="datum" for="txtName"><span>datum</span>
+                            <input type="text" name="datum" value="" placeholder="23/12/2016"></label>
+                            <label class="uur" for="txtName"><span>uur</span>
+                            <input type="text" name="uur" value="" placeholder="14:00"></label>
+                            <select class="plan" name="plan">
+                                    <option value="vertrek">vertek</option>
+                                    <option value="aankomst">aankomst</option>
+                            </select>
+                            <div class="search-input-button">
+                                <button class="search button" type="submit">Plan route</button>
+                            </div>
+                        </div>
+                        </form>
+
+                    <div class="col col-1">
+                        <section class="vroegere-route">
+                            <h3>Vroegere Route</h3>
+                            <p>18:13 -> 18:44<span>30 min</span></p><br>
+                            <p>18:43 -> 19:14<span>30 min</span></p><br>
+                            <p>19:13 -> 19:44<span>30 min</span></p><br>
+                            <p>19:43 -> 20:14<span>30 min</span></p>
+                        </section>
+                    </div>
+                    <div class="col col-2">
+                        <section>
+                            
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <div class="container">
+                    <section>
+                       <p>&copy; 2016 <a href="http://www.arteveldehogeschool.be" title="Website Arteveldehogeschool">Arteveldehogeschool</a>. Alle rechten voorbehouden.</p>
+                    </section>
+                </div>
+            </div>
+        </footer>
+            <!-- External JS-libraries: None at this moment -->
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!-- My Own Scripts: Main Script -->
+     <script src="../styles/js/utils.js"></script>
+    <script src="../styles/js/helpers.js"></script>
+    <script src="../styles/js/models.js"></script>
+    <script src="../styles/js/services.js"></script>
+    <script src="../styles/js/main.js"></script>
+    </body>
+</html>
