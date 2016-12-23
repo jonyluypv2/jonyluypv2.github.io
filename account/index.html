@@ -1,0 +1,149 @@
+<!-- account -->
+<!doctype html>
+    <html class="no-js" lang="nl" dir="ltr" prefix="og: http://ogp.me/ns#">
+        <head>
+            <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+
+        <title>CMS App | Web and New Media | Artevelde University College Ghent</title>
+        <meta name="description" content="gdm.gent frontend boilerplate for the mass. We want the share all or knowledge on webtechnologies with you all :)">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript, jQuery, Responsive, Grid">
+        <meta name="author" content="gdm.gent | Bachelor of Graphic and Digital Media | Artevelde University College Ghent">
+        <meta name="copyright" content="Copyright 2010-16 Artevelde University College Ghent. All Rights Reserved.">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <!-- prefetch dns -->
+        <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+        <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        <!-- CSS-libraries -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.min.css">
+            
+        <title>Mobiliteit</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        
+        <!-- My Own Stylesheets -->
+        <link rel="stylesheet" media="all" href="../styles/css/helpers.css">
+        <link rel="stylesheet" media="all" href="../styles/css/grid.css">
+        <link rel="stylesheet" media="all" href="../styles/css/common.css">
+        <link rel="stylesheet" media="all" href="../styles/css/main.css">
+   
+    </head>
+    <body>    
+        <!-- Insert your HTML here -->
+        <div class="wrapper header">
+            <header>
+                <div class="achtergrond">
+                    <div class="container-header">
+                       <nav id="nav" role="navigation">
+                            <a href="#nav" title="Show navigation">Show navigation</a>
+                            <a href="#" title="Hide navigation">Hide navigation</a>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="#" aria-haspopup="true">Routeplanner</a>
+                                    <ul>
+                                        <div class="background image"></div>
+                                        <li><a class="active-2" href="../bluebike/index.html">Bluebike</a></li>
+                                        <li><a class="active-2" href="../openbaarvervoer/index.html">Openbaarvervoer</a></li>
+                                        <li><a class="active-2" href="../carpool/index.html">Carpool</a></li>
+                                    </ul>
+                                <li><a href="../login/index.html">Login</a></li>
+                                <li><a class="active" href="../account/index.html">Account</a></li>
+                                <li><a href="../contact/index.html">Contact</a></li>
+                           </ul>
+                        </nav>                
+                    </div>  
+                </div> 
+            </header>
+      	</div>
+         <div class="wrapper wit--achtergrond">
+            <div class="container">
+                <h1>Account</h1>
+            </div>
+        </div> 
+
+        <div class="wrapper grijs">
+            <div class="container account">
+                <div class="row">
+                    <div class="col col-1">
+                        <div class="user-account">
+                            <img src="../content/image/Marlon-profielfoto.png" alt="Marlon-profielfoto" title="image"/>
+                            <span class="login">DXKristel</span>
+                        </div>
+                            <nav>
+                                <ul class="profiel-tabel">
+                                    <li class="profiel">Profiel</li>
+                                    <li class="profiel-1"><a href="">Wachtwoord wijzingen</a></li>
+                                    <li class="profiel-1"><a href="">Profiel aanpassen</a></li>
+                                    <li class="favoriete">Favoriete</li>
+                                    <li class="profiel-1"><a href="">Route</a></li>
+                                    <li class="profiel-2"><a href="">Carpool</a></li>
+                               </ul>
+                            </nav>
+                    </div>
+                    <div class="col col-2">
+                        <section>
+                             <form class="formulier" action="action_page.php">
+                                <label for="txtName"><span>Voornaam</span></label>
+                                <input type="text" name="voornaam" value=""><br>
+                                <label for="txtName"><span>Naam</span></label>
+                                <input type="text" name="naam" value=""><br>
+                                <label for="txtName"><span>Adres</span></label>
+                                <input type="text" name="adress" value=""><br>
+                                <label for="txtName"><span>Geslacht</span></label>
+                                <select name="geslacht">
+                                    <option value="man">Man</option>
+                                    <option value="vrouw">Vrouw</option>
+                                </select><br>
+                                <label for="txtName"><span>Postcode</span></label>
+                                <input type="text" name="postcode" value=""><br>
+                                <label for="txtName"><span>GSM/Tel</span></label>
+                                <input type="text" name="gsm/tel" value=""><br>
+                                <label for="txtName"><span>Email</span></label>
+                                <input type="text" name="email" value=""><br>
+                                <label for="txtName"><span>Auto</span></label>
+                                <select name="auto">
+                                    <option value="man">ja</option>
+                                    <option value="vrouw">nee</option>
+                                </select><br>
+                                <input class="save" type="submit" value="Opslaan">
+                            </form> 
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <div class="container">
+                    <section>
+                       <p>&copy; 2016 <a href="http://www.arteveldehogeschool.be" title="Website Arteveldehogeschool">Arteveldehogeschool</a>. Alle rechten voorbehouden.</p>
+                    </section>
+                </div>
+            </div>
+        </footer>
+            <!-- External JS-libraries: None at this moment -->
+    <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!-- My Own Scripts: Main Script -->
+     <script src="../styles/js/utils.js"></script>
+    <script src="../styles/js/helpers.js"></script>
+    <script src="../styles/js/models.js"></script>
+    <script src="../styles/js/services.js"></script>
+    <script src="../styles/js/main.js"></script>
+    </body>
+</html>
